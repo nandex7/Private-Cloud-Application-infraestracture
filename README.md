@@ -95,21 +95,17 @@ Make sure you review the rubric as you set the configurations for the items abov
 
 ## Solution Summary:
 
-2 production VMs
-3 development VMs
-1 restored VM (clone of the deleted production VM)
-
-Image Locations: Images
-NTP = pool.ntp.org
-DNS = 8.8.8.8
+    Image Locations: Images
+    NTP = pool.ntp.org
+    DNS = 8.8.8.8
 
 ### Production:
-
-Network =172.31.0.0/24
-Vlan     = 0
-Ip Lease = PAM/DHCP
-Ip Network Start = 172.31.0.210
-Ip Network End = 172.31.0.230
+    
+    Network =172.31.0.0/24
+    Vlan     = 0
+    Ip Lease = PAM/DHCP
+    Ip Network Start = 172.31.0.210
+    Ip Network End = 172.31.0.230
 
 db-prod:
 
@@ -133,9 +129,9 @@ web-prod:
 
 ### Development :
 
-Network  = 172.31.101.0/24
-Vlan     = 101
-Ip Lease = Unmanaged
+    Network  = 172.31.101.0/24
+    Vlan     = 101
+    Ip Lease = Unmanaged
 
 A clone for each server was created for the development team
 
