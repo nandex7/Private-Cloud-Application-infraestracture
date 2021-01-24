@@ -146,14 +146,14 @@ db-dev:
     OS   = "Microsoft SQL on Windows"
     IP   = 172.31.101.102
 
-App-dev:
+app-dev:
 
     vCPU = 1
     Ram  = 4
     OS   = "Linux CentOS"
     IP   = 172.31.101.100
 
-Web-dev:
+web-dev:
 
     vCPU = 1
     Ram  = 4

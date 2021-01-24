@@ -89,6 +89,7 @@ db-prod:
     Ram =4 
     OS = "Microsoft SQL on Windows"
     IP= PAM/DHCP
+    DISK = 40G
 
 app-prod:
 
@@ -96,6 +97,7 @@ app-prod:
     Ram  = 4
     OS   = "Linux CentOS"
     IP   = PAM/DHCP
+    DISK = 40G
 
 web-prod:
 
@@ -103,10 +105,10 @@ web-prod:
     Ram  =  4
     OS   = "Linux CentOS"
     IP   =  PAM/DHCP
+    DISK = 40G
 
 ### Development :
 
-Network  = 172.31.101.0/24
 Network  = 172.31.101.0/24
 Vlan Tag = 101
 Ip Lease = Unmanaged
