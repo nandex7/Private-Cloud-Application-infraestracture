@@ -103,10 +103,10 @@ Image Locations: Images
 NTP = pool.ntp.org
 DNS = 8.8.8.8
 
-### Production Network:
+### Production:
 
 Network =172.31.0.0/24
-Vlan Tag = 0
+Vlan     = 0
 Ip Lease = PAM/DHCP
 Ip Network Start = 172.31.0.210
 Ip Network End = 172.31.0.230
@@ -134,8 +134,7 @@ web-prod:
 ### Development :
 
 Network  = 172.31.101.0/24
-Network  = 172.31.101.0/24
-Vlan Tag = 101
+Vlan     = 101
 Ip Lease = Unmanaged
 
 A clone for each server was created for the development team
