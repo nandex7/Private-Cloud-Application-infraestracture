@@ -77,11 +77,11 @@ DNS = 8.8.8.8
 
 ### Production Network:
 
-Network =172.31.0.0/24
-Vlan Tag = 0
-Ip Lease = PAM/DHCP
-Ip Network Start = 172.31.0.210
-Ip Network End = 172.31.0.230
+    Network =172.31.0.0/24
+    Vlan Tag = 0
+    Ip Lease = PAM/DHCP
+    Ip Network Start = 172.31.0.210
+    Ip Network End = 172.31.0.230
 
 db-prod:
 
